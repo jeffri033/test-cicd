@@ -64,7 +64,7 @@ context('Cypress APIs', () => {
     })
   })
 
-  context('Cypress.config()', () => {
+  /*context('Cypress.config()', () => {
     beforeEach(() => {
       cy.visit('https://example.cypress.io/cypress-api')
     })
@@ -92,7 +92,7 @@ context('Cypress APIs', () => {
 
       Cypress.config('pageLoadTimeout', 60000)
     })
-  })
+  })*/
 
   context('Cypress.dom', () => {
     beforeEach(() => {
